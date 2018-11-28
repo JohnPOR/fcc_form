@@ -1,44 +1,87 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url(http://keshillabukurie.com/wp-content/uploads/2017/01/877195248-35874640-textile-texture-background-seamless-pattern-for-web-design-desktop-wallpaper-or-website-stock-vector.jpg);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+* {
+    font-family: 'Patua One', cursive;
     font-size: 1rem;
-}
-
-header {
-    text-align: center;
-    margin-top: 40px;
-    padding: 0;
-}
-
-#title {
     color: #333;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    overflow: hidden;
-    width: 66%;
+body {
+    margin: 5rem;
+    padding: 5rem;
+    background-color: #07d6e0;
+}
+
+.wrapper {
+    background-color: white;
+    width: 70%;
     margin: auto;
-    padding-top: 20px;
-    margin-top: 50px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: antiquewhite;
+    padding: 2rem;
 }
 
-#description {
-    margin: 10px;
-    padding: 0 10px;
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: underline;
+    text-decoration-color: #07d6e0;
 }
 
-#survey-form {
+#main {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    justify-content: flex-start;
+    overflow: hidden;
+}
+
+#name-email-input {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#name {
+    width: 20rem;
+}
+
+#email {
+    width: 20rem;
+}
+
+#number-label {
+    text-transform: uppercase;
+}
+
+#number {
+    margin-bottom: 0.5rem;
+}
+
+#select {
+    margin-bottom: 1rem;
+}
+
+#radian {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.rad-btn {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.5rem;
+}
+
+.checkbox {
+    padding-bottom: 1rem;
+}
+
+.check-choices {
+    margin-bottom: 1rem;
+}
+
+#additional-comments {
+    display: inline-block;
+    overflow: auto;
+}
+
+#submit {
+    margin-top: 0.5rem;
 }
